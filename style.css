@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  padding: 40px;
+}
+
+section {
+  flex: 7;
+  padding: 20px;
+}
+
+aside {
+  flex: 3;
+  padding: 20px;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 20px;
+  font-size: 22px;
+}
+
+hr {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  margin-right: 10px;
+}
+
+progress[value] {
+  width: 250px;
+  height: 20px;
+}
