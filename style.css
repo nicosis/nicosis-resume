@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #fbeaeb;
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
@@ -7,6 +7,7 @@ body {
 main {
   display: flex;
   padding: 40px;
+  color: #2f3c7e;
 }
 
 section {
@@ -20,13 +21,20 @@ aside {
 }
 
 header {
-  background-color: aquamarine;
+  background-color: #2f3c7e;
   padding: 20px;
   font-size: 22px;
+  color: #fbeaeb;
+  font-weight: bold;
+}
+
+header h1,
+h2 {
+  margin: 5px;
 }
 
 hr {
-  color: black;
+  color: #2f3c7e;
 }
 
 ul {
@@ -41,3 +49,20 @@ progress[value] {
   width: 250px;
   height: 20px;
 }
+
+aside p {
+  margin: 0px;
+}
+
+li {
+  margin: 5px;
+}
+
+/* background: */
+progress::-webkit-progress-bar {background-color: rgb(197, 196, 196); width: 100%;}
+progress {background-color: rgb(197, 196, 196);}
+
+/* value: */
+progress::-webkit-progress-value {background-color: aquamarine !important;}
+progress::-moz-progress-bar {background-color: aquamarine !important;}
+progress {color: aquamarine;}
