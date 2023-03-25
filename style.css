@@ -1,5 +1,5 @@
 body {
-  background-color: #fbeaeb;
+  background-color: #FBF8BE;
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
@@ -7,7 +7,7 @@ body {
 main {
   display: flex;
   padding: 40px;
-  color: #2f3c7e;
+  color: #234E70;
 }
 
 section {
@@ -21,10 +21,10 @@ aside {
 }
 
 header {
-  background-color: #2f3c7e;
+  background-color: #234E70;
   padding: 20px;
   font-size: 22px;
-  color: #fbeaeb;
+  color: #FBF8BE;
   font-weight: bold;
 }
 
@@ -34,7 +34,7 @@ h2 {
 }
 
 hr {
-  color: #2f3c7e;
+  color: #234E70;
 }
 
 ul {
@@ -59,10 +59,10 @@ li {
 }
 
 /* background: */
-progress::-webkit-progress-bar {background-color: rgb(197, 196, 196); width: 100%;}
-progress {background-color: rgb(197, 196, 196);}
+/* progress::-webkit-progress-bar {background-color: rgb(197, 196, 196); width: 100%;} */
+/* progress {background-color: rgb(197, 196, 196);} */
 
 /* value: */
-progress::-webkit-progress-value {background-color: aquamarine !important;}
-progress::-moz-progress-bar {background-color: aquamarine !important;}
-progress {color: aquamarine;}
+/* progress::-webkit-progress-value {background-color: #2f3c7e !important;} */
+progress::-moz-progress-bar {background-color: #234E70 }
+/* progress {color: aquamarine;} */
