@@ -1,5 +1,5 @@
 body {
-  background-color: #FFDD83;
+  background-color: #98DFD6;
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
@@ -18,14 +18,14 @@ section {
 aside {
   flex: 3;
   padding: 20px;
-  background-color: #98DFD6;
+  background-color: #FFDD83;
 }
 
 header {
   background-color: #00235B;
   padding: 20px;
   font-size: 22px;
-  color: #FFDD83;
+  color: #98DFD6;
   font-weight: bold;
 }
 
@@ -60,10 +60,10 @@ li {
 }
 
 /* background: */
-progress::-webkit-progress-bar {background-color: #FFDD83); width: 100%;}
-progress {background-color: #FFDD83);}
+progress::-webkit-progress-bar {background-color: #98DFD6; width: 100%;}
+progress {background-color: #98DFD6;}
 
 /* value: */
-progress::-webkit-progress-value {background-color: #00235B !important;}
-progress::-moz-progress-bar {background-color: #00235B }
-progress {color: #FFDD83;}
+progress::-webkit-progress-value {background-color: #E21818 !important;}
+progress::-moz-progress-bar {background-color: #E21818 }
+progress {color: #98DFD6;}
